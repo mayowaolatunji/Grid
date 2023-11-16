@@ -1,0 +1,76 @@
+.container{
+    background: rgb(220, 220, 220);
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 0.6fr 1fr 1fr 1fr;
+    grid-template-rows: 0.4fr 1.5fr 1.2fr 0.4fr;
+    padding: 5px;
+    text-align: center;
+
+    grid-template-areas: 
+    "nav nav nav nav"
+    "sideBar main main main"
+    "sideBar content1 content2 content3"
+    "sideBar footer footer footer";
+    grid-gap: 0.2rem;
+    
+}
+
+nav{
+    background: rgb(17, 16, 16);
+    color: white;
+    grid-area: nav;
+    padding: 2px;
+    border-radius: 5px;
+    padding-top: 5px;
+
+}
+
+main{
+    background: url(FysL2hDX0B0ZXV5.jpeg);
+    grid-area: main;
+
+    border-radius: 5px;
+    padding-top: 5px;
+
+}
+
+#sideBar{
+    background: skyblue;
+    grid-area: sideBar;
+
+    border-radius: 5px;
+    padding-top: 5px;
+}
+
+#content1{
+    background: burlywood;
+    grid-area: content1;
+
+    border-radius: 5px;
+    padding-top: 5px;
+}
+
+#content2{
+    background: rgb(177, 222, 135);
+    grid-area: content2;
+
+    border-radius: 5px;
+    padding-top: 5px;
+}
+
+#content3{
+    background: rgb(135, 145, 222);
+    grid: content3;
+    border-radius: 5px;
+    padding-top: 5px;
+}
+
+#footer{
+    background: rgb(17, 16, 16);
+    color: white;
+    grid-area: footer;
+
+    border-radius: 5px;
+    padding-top: 5px;
+}
